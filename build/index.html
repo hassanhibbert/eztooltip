@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>ezTooltip</title>
+    <link type="text/css" rel="stylesheet" href="css/eztooltip.css" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript" src="js/eztooltip.js"></script>
+</head>
+
+<body>
+    <div style="width:350px; margin:50px auto 0 auto;">
+        <h2>ezTooltip</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac bibendum lacus. Suspendisse tempus elit dolor, quis convallis leo malesuada in. Etiam rhoncus, sapien et <a href="#" title="sapien et elementum malesuada, velit est facilisis est, ut aliquam ipsum nisi a felis." class="tool-tip">tooltip default</a> malesuada, velit est facilisis est, ut aliquam ipsum nisi a felis. Sed turpis tellus, hendrerit tempus fringilla ac, suscipit a mi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac bibendum lacus. Suspendisse tempus elit <a href="#" title="Google Logo" class="tool-tip" data-placement="top">tooltip top</a>, quis convallis leo malesuada in. Etiam rhoncus, sapien et elementum malesuada, velit est facilisis est, ut aliquam ipsum nisi a felis. Sed turpis tellus, hendrerit tempus fringilla ac, suscipit a mi.</p>
+        <p> <img class="tool-tip" data-placement="left" title="Palm Trees" src="http://www.florida-palm-trees.com/wp-content/uploads/2011/11/carpentaria_palm_tree.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac bibendum lacus. Suspendisse tempus elit dolor, quis <a href="#" class="tool-tip" title="Plain text tip" data-placement="right">tooltip right </a> leo malesuada in. Etiam rhoncus, sapien et elementum malesuada, velit est facilisis est, ut aliquam ipsum nisi a felis. Sed turpis tellus, hendrerit tempus fringilla ac, suscipit a mi. Pellentesque a massa turpis. <a href="#" class="tool-tip" data-placement="left" title="this a simple tooltip">tooltip left</a> nec massa finibus, sagittis tellus ac, tristique libero.</p>
+    </div>
+    <script>
+        ezTooltip.init('.tool-tip');
+    </script>
+</body>
+
+</html>
