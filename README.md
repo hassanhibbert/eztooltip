@@ -1,6 +1,8 @@
 # ezTooltip.js
 
-ezTooltip is a lightweight javascript plugin that doesn’t depend on any external library. When minified it is only about 1k. This plugin adds a tooltip to almost any element. View the live demo below to the the plugin in action.
+ezTooltip is a lightweight javascript plugin that doesn’t depend on any external library. When minified it is only about 1k. This plugin adds a tooltip to almost any element.
+
+__Demo:__ http://hassanhibbert.github.io/eztooltip/
 
 ### Sample Usage:
 
